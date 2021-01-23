@@ -6,7 +6,7 @@ This is a tiny app designed to compress images for web requests. It's far from p
 
 The brief for this app is to sit alongside a Django webapp (to which these pesky users keep uploading massive images) and serve user-uploaded files which are compressed on the fly. Ideally this would be integrated with some sort of Django plugin, but that's beyond the scope of the project for now.
 
-## Deployment Steps
+# Deployment Steps
 
 I've deployed this behind Nginx on a Linux server running Ubuntu with the following config.
 
@@ -53,8 +53,9 @@ Then reload Nginx: `sudo nginx -s reload`
 
 I want to do the following:
 
-- [] Move config to command line args
-- [] Figure out why routing doesn't work with the config above (right now it only works when routing to root `/`)
-- [] Add a batch job for compressing a set of images all in one go
-- [] Benchmark the mother
-- [] Add proper logging to an output file
+- [x] Write a fancy todo list
+- [ ] Move config to command line args
+- [ ] Figure out why routing doesn't work with the config above (right now it only works when routing to root `/`)
+- [ ] Add a batch job for compressing a set of images all in one go
+- [ ] Benchmark the mother
+- [ ] Add proper logging to an output file
