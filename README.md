@@ -8,7 +8,7 @@ The brief for this app is to sit alongside a Django webapp (to which these pesky
 
 I wrote [a blog post about the project](https://tomwalters.co/dynamic-image-compression-with-go/) if you'd like to learn more.
 
-## Deployment Steps
+## Deployment Steps
 
 I've deployed this behind Nginx on a Linux server running Ubuntu with the following config.
 
