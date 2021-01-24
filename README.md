@@ -6,7 +6,9 @@ This is a tiny app designed to compress images for web requests. It's far from p
 
 The brief for this app is to sit alongside a Django webapp (to which these pesky users keep uploading massive images) and serve user-uploaded files which are compressed on the fly. Ideally this would be integrated with some sort of Django plugin, but that's beyond the scope of the project for now.
 
-# Deployment Steps
+I wrote [a blog post about the project](https://tomwalters.co/dynamic-image-compression-with-go/) if you'd like to learn more.
+
+## Deployment Steps
 
 I've deployed this behind Nginx on a Linux server running Ubuntu with the following config.
 
